@@ -1,1 +1,0 @@
-# bartoszlewosz.github.io
