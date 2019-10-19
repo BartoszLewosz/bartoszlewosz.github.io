@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext");
 html {
   line-height: 1.15;
   /* 1 */
@@ -307,6 +308,35 @@ template {
 [hidden] {
   display: none; }
 
+.hero {
+  max-width: 1024px;
+  padding: 2rem;
+  text-align: justify;
+  margin: 1rem; }
+  .hero__description {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    max-width: 768px; }
+    .hero__description--detail {
+      color: #52606D;
+      font-weight: 300;
+      font-size: 1.25rem;
+      line-height: 2.25rem;
+      padding-bottom: 3.75rem; }
+  .hero__photo {
+    border-radius: 40px;
+    height: 150px;
+    width: 150px; }
+  .hero__email {
+    text-decoration: none;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 8px; }
+  .hero__link {
+    color: green;
+    font-weight: 500;
+    text-decoration: none; }
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -316,19 +346,10 @@ html {
           box-sizing: inherit; }
 
 body {
-  color: #F9C802;
-  background: #000; }
-
-.main {
-  border: 16px solid white;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0; }
-
-.hero__photo {
-  border-radius: 40px;
-  height: 150px;
-  width: 150px; }
+  color: #171F3F;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border: 16px solid #171F3F; }
 
 /*# sourceMappingURL=main.css.map */
