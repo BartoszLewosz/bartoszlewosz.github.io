@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext');
 
+@import "modules/hero";
+
 
 html {
   box-sizing: border-box;
@@ -18,19 +20,4 @@ body {
   font-family: 'Poppins', sans-serif;
   border: 16px solid $big-stone;
 
-}
-
-// .main {
-//   // position: fixed;
-//   border: 16px solid $big-stone;
-//   width: 100%;
-//   height: 100%;
-//   margin: 0;
-//   padding: 0;
-// }
-
-.hero__photo {
-  border-radius: 40px;
-  height: 150px;
-  width: 150px;
 }
