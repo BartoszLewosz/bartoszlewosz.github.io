@@ -13,18 +13,21 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  color: $big-stone;
+  background: #fff; 
+  font-family: 'Poppins', sans-serif;
+  border: 16px solid $big-stone;
+
 }
 
-.main {
-  // position: fixed;
-  border: 16px solid white;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+// .main {
+//   // position: fixed;
+//   border: 16px solid $big-stone;
+//   width: 100%;
+//   height: 100%;
+//   margin: 0;
+//   padding: 0;
+// }
 
 .hero__photo {
   border-radius: 40px;
