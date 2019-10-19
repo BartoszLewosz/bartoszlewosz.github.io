@@ -1,0 +1,25 @@
+
+.hero {
+    max-width: 1024px;
+    padding: 64px;
+    text-align: justify;
+   
+    &__description {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 40px;
+
+        &--detail {
+            color: $shuttle-grey;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 36px;
+        }
+    }
+    &__photo {
+        border-radius: 40px;
+        height: 150px;
+        width: 150px;
+    }
+}
