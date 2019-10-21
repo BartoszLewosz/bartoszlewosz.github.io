@@ -2,7 +2,6 @@
 .hero {
     max-width: 1024px;
     padding: 2rem;
-    text-align: justify;
     margin: 1rem;
    
     &__description {
@@ -28,10 +27,19 @@
     &__email {
         text-decoration: none;
         border-bottom: 2px solid lightblue;
+        border-top: 2px solid white;
         padding-bottom: 8px;
+        -moz-transition: color .5s ease-in-out,
+                            border-bottom .5s linear,
+                            border-top .5s ease-in-out;
+        &:hover {
+            color: $big-stone;
+            border-bottom: 2.5px solid $big-stone;
+            border-top: 2.5px solid $shuttle-grey;
+        }
     }
     &__link {
-        color: green;
+        color: $green;
         font-weight: 500;
         text-decoration: none;
     }
