@@ -21,7 +21,17 @@
     &__list {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        &--green {
+            list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_green.svg');
+        }
+        &--blue {
+            list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_blue.svg');
+        }
+        &--violet {
+            list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_violet.svg');
+        }
     }
+    
     &__title {
         font-size: 2.5rem;
         margin: 0;
