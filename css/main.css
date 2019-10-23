@@ -349,7 +349,7 @@ template {
   background-color: lightblue; }
   .skills__header {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 1.25rem;
     line-height: 44px; }
     .skills__header::before {
       content: '';
@@ -364,13 +364,16 @@ template {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr; }
+  .skills__item {
+    color: red;
+    list-style-image: url("assets/img/check-circle.svg"); }
   .skills__title {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin: 0;
     padding: 1rem 0;
     border-bottom: 2px solid #52606D; }
   .skills__sections {
-    margin: .5rem 0 2rem;
+    margin: 1.5rem 0;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 2fr 1fr;
