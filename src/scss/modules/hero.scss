@@ -1,16 +1,13 @@
-
 .hero {
     max-width: 1024px;
     padding: 2rem;
     margin: 0 auto;
-   
     &__description {
         // font-style: normal;
         font-weight: 600;
         font-size: 1.5rem;
         line-height: 2.5rem;
         max-width: 768px;
-
         &--detail {
             color: $shuttle-grey;
             font-weight: 300;
@@ -29,9 +26,7 @@
         border-bottom: 2px solid lightblue;
         border-top: 2px solid white;
         padding-bottom: 8px;
-        -moz-transition: color .5s ease-in-out,
-                            border-bottom .5s linear,
-                            border-top .5s ease-in-out;
+        -moz-transition: color .5s ease-in-out, border-bottom .5s linear, border-top .5s ease-in-out;
         &:hover {
             color: $big-stone;
             border-bottom: 2.5px solid $big-stone;
