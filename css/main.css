@@ -349,7 +349,7 @@ template {
   background-color: lightblue; }
   .skills__header {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 32px;
     line-height: 44px; }
     .skills__header::before {
       content: '';
@@ -358,36 +358,93 @@ template {
       border-radius: .5rem;
       height: 4px;
       width: 80px;
-      margin-bottom: 1rem; }
+      margin-bottom: 1.5rem; }
   .skills__list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    padding: 0;
-    margin-top: calc(2.5rem + 4px); }
+    grid-template-columns: 1fr 1fr; }
     .skills__list--green {
       list-style-image: url("https://bartoszlewosz.github.io/assets/img/bullet_green.svg"); }
-  .skills__item {
-    min-height: 40px; }
+    .skills__list--blue {
+      list-style-image: url("https://bartoszlewosz.github.io/assets/img/bullet_blue.svg"); }
+    .skills__list--violet {
+      list-style-image: url("https://bartoszlewosz.github.io/assets/img/bullet_violet.svg"); }
   .skills__title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: 0;
     padding: 1rem 0;
     border-bottom: 2px solid #52606D; }
   .skills__sections {
-    margin: 1.5rem 0;
+    margin: .5rem 0 2rem;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 2fr 1fr;
     grid-template-columns: 2fr 1fr; }
+
+.projects {
+  background: #F5F7FA;
+  max-width: 1024px;
+  padding: 2rem;
+  margin: 0 auto; }
+  .projects__header {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 1rem 0;
+    border-bottom: 2px solid #52606D; }
+  .projects__description {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    max-width: 768px; }
+  .projects__repositories {
+    border-radius: 8px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem; }
+  .projects__repo {
+    -webkit-box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+            box-shadow: 0px 6px 16px rgba(24, 41, 67, 0.09);
+    border-radius: 8px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden; }
+  .projects__title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2.25rem; }
+  .projects__content {
+    color: #52606D;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2.25rem;
+    padding: 0;
+    margin: 0; }
+  .projects__container {
+    background: #fff;
+    padding: 3rem; }
+  .projects__footer {
+    background: #F5F7FA;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2rem; }
+  .projects__link {
+    color: #0593FB;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 2.25rem;
+    text-decoration: none; }
 
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   scroll-behavior: smooth; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
