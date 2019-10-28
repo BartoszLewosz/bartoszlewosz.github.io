@@ -1,9 +1,8 @@
 .skills {
     max-width: 1024px;
     padding: 2rem;
-    margin: 0 auto;;
-    background-color: lightblue;
-
+    margin: 0 auto;
+    ;
     &__header {
         font-weight: 600;
         font-size: 32px;
@@ -31,18 +30,15 @@
             list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_violet.svg');
         }
     }
-    
     &__title {
         font-size: 2.5rem;
         margin: 0;
         padding: 1rem 0;
-        border-bottom: 2px solid $shuttle-grey;
+        border-bottom: 2px solid $grey;
     }
-    
-    &__sections  {
+    &__sections {
         margin: .5rem 0 2rem;
         display: grid;
-    grid-template-columns: 2fr 1fr;
-
+        grid-template-columns: 2fr 1fr;
     }
 }
