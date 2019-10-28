@@ -1,5 +1,35 @@
 .contact {
     background: $big-stone;
-    min-width: 1024px;
     color: $light-grey;
+    &__header {
+        font-size: 2.5rem;
+        margin: 0 auto 1rem;
+        padding: 8rem 0 0;
+        max-width: 1184px;
+        &::before {
+            content: '';
+            display: block;
+            border-radius: .5rem;
+            width: 80px;
+            height: 4px;
+            background: $blue;
+            margin-bottom: 1.5rem;
+        }
+    }
+    &__container {
+        margin: 0 auto;
+        padding: 1rem 0 8rem;
+        max-width: 1184px;
+    }
+    .social {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        &__link {
+            color: $light-grey;
+        }
+        &__item {
+            padding-right: 1.5rem;
+        }
+    }
 }
