@@ -62,5 +62,35 @@
         font-size: 1.125rem;
         line-height: 2.25rem;
         text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        &+& {
+            // This is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element. In this case,
+            // only the first paragraph after each ul will have red text.
+            margin-left: 32px;
+            position: relative;
+            &::after {
+                content: '';
+                border-radius: 8px;
+                display: block;
+                width: 2px;
+                height: 32px;
+                background: #CBD2D9;
+                position: absolute;
+                left: -24px;
+                pointer-events: none;
+            }
+        }
+        &::before {
+            content: '';
+            display: block;
+            margin-right: 8px;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: url('../assets/img/demo-icon.svg') center no-repeat;
+        }
+        &--code::before {
+            background: url('../assets/img/code-icon.svg') center no-repeat;
+        }
     }
 }
