@@ -345,12 +345,11 @@ template {
 .skills {
   max-width: 1024px;
   padding: 2rem;
-  margin: 0 auto;
-  background-color: lightblue; }
+  margin: 0 auto; }
   .skills__header {
     font-weight: 600;
-    font-size: 32px;
-    line-height: 44px; }
+    font-size: 2rem;
+    line-height: 2.25rem; }
     .skills__header::before {
       content: '';
       background: green;
@@ -374,7 +373,7 @@ template {
     font-size: 2.5rem;
     margin: 0;
     padding: 1rem 0;
-    border-bottom: 2px solid #52606D; }
+    border-bottom: 2px solid #CBD2D9; }
   .skills__sections {
     margin: .5rem 0 2rem;
     display: -ms-grid;
@@ -383,20 +382,22 @@ template {
     grid-template-columns: 2fr 1fr; }
 
 .projects {
-  background: #F5F7FA;
   max-width: 1024px;
   padding: 2rem;
-  margin: 0 auto; }
+  margin: 0 auto 8rem; }
   .projects__header {
     font-size: 2.5rem;
     margin: 0;
     padding: 1rem 0;
-    border-bottom: 2px solid #52606D; }
+    border-bottom: 2px solid #CBD2D9; }
   .projects__description {
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 2.5rem;
-    max-width: 768px; }
+    max-width: 768px;
+    margin: 2rem 0 4rem; }
+  .projects__logo {
+    margin: .5rem; }
   .projects__repositories {
     border-radius: 8px;
     display: -ms-grid;
@@ -414,28 +415,92 @@ template {
   .projects__title {
     font-weight: 600;
     font-size: 1.25rem;
-    line-height: 2.25rem; }
+    line-height: 2.25rem;
+    margin: .5rem; }
   .projects__content {
     color: #52606D;
     font-weight: 300;
     font-size: 1.125rem;
     line-height: 2.25rem;
     padding: 0;
-    margin: 0; }
+    margin: .5rem; }
   .projects__container {
     background: #fff;
-    padding: 3rem; }
+    padding: 2rem; }
   .projects__footer {
     background: #F5F7FA;
     font-weight: 500;
     font-size: 1.2rem;
-    line-height: 2rem; }
+    line-height: 2rem;
+    text-align: end; }
   .projects__link {
     color: #0593FB;
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 2.25rem;
-    text-decoration: none; }
+    text-decoration: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .projects__link + .projects__link {
+      margin-left: 32px;
+      position: relative; }
+      .projects__link + .projects__link::after {
+        content: '';
+        border-radius: 8px;
+        display: block;
+        width: 2px;
+        height: 32px;
+        background: #CBD2D9;
+        position: absolute;
+        left: -24px;
+        pointer-events: none; }
+    .projects__link::before {
+      content: '';
+      display: block;
+      margin-right: 8px;
+      width: 1.5rem;
+      height: 1.5rem;
+      background: url("../assets/img/demo-icon.svg") center no-repeat; }
+    .projects__link--code::before {
+      background: url("../assets/img/code-icon.svg") center no-repeat; }
+
+.contact {
+  background: #171F3F;
+  color: #F5F7FA; }
+  .contact__header {
+    font-size: 2.5rem;
+    margin: 0 auto 1rem;
+    padding: 8rem 0 0;
+    max-width: 1184px; }
+    .contact__header::before {
+      content: '';
+      display: block;
+      border-radius: .5rem;
+      width: 80px;
+      height: 4px;
+      background: #0593FB;
+      margin-bottom: 1.5rem; }
+  .contact__container {
+    margin: 0 auto;
+    padding: 1rem 0 8rem;
+    max-width: 1184px; }
+  .contact .social {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .contact .social__link {
+      color: #F5F7FA; }
+    .contact .social__item {
+      padding-right: 1.5rem; }
 
 html {
   -webkit-box-sizing: border-box;
