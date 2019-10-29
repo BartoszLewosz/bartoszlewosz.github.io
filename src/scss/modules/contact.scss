@@ -21,10 +21,34 @@
         padding: 1rem 0 8rem;
         max-width: 1184px;
     }
+    &__description {
+        font-weight: 300;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        max-width: 768px;
+        margin: 2rem 0;
+    }
+    &__email {
+        color: $light-grey;
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        text-decoration: none;
+        padding: 8px 0;
+        border-bottom: 2px solid $blue;
+        border-top: 2px solid $big-stone;
+        -moz-transition: color .5s ease-in-out, border-bottom .5s linear, border-top .5s ease-in-out;
+        &:hover {
+            color: $blue;
+            border-bottom: 2.5px solid $big-stone;
+            border-top: 2px solid $light-grey;
+        }
+    }
     .social {
         list-style-type: none;
         display: flex;
         flex-direction: row;
+        padding: 1.5rem 0;
         &__link {
             color: $light-grey;
             text-decoration: none;
