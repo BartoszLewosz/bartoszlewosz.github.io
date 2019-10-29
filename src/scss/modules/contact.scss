@@ -27,6 +27,7 @@
         flex-direction: row;
         &__link {
             color: $light-grey;
+            text-decoration: none;
         }
         &__item {
             padding-right: 1.5rem;
