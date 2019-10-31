@@ -6,6 +6,9 @@
         font-weight: 600;
         font-size: 2rem;
         line-height: 2.25rem;
+        @media (max-width: $mobile) {
+            margin: 1rem;
+        }
         &::before {
             content: '';
             background: $green;
@@ -19,7 +22,7 @@
     &__list {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(178px, 1fr));
-        padding: 1.5rem;
+        padding: 2rem;
         &--green {
             list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_green.svg');
         }
@@ -43,6 +46,7 @@
         grid-template-columns: 2fr 1fr;
         @media (max-width: $mobile) {
             grid-template-columns: 1fr;
+            margin: .5rem 0;
         }
     }
 }
