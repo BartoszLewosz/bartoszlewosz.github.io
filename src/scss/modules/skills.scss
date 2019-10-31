@@ -19,6 +19,8 @@
     &__list {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        // grid-template-columns: repeat(auto-fill, minimax(200px, 1fr));
+        padding: 1.5rem 0;
         &--green {
             list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_green.svg');
         }
@@ -34,10 +36,14 @@
         margin: 0;
         padding: 1rem 0;
         border-bottom: 2px solid $grey;
+        text-align: center;
     }
     &__sections {
         margin: .5rem 0 2rem;
         display: grid;
         grid-template-columns: 2fr 1fr;
+        @media (max-width: $mobile) {
+            grid-template-columns: 1fr;
+        }
     }
 }
