@@ -26,4 +26,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     border: 16px solid $big-stone;
+    @media (max-width: $mobile) {
+        border: none;
+    }
 }
