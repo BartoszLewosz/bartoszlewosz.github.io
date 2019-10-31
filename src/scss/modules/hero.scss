@@ -22,14 +22,15 @@
         width: 150px;
     }
     &__email {
+        color: $big-stone;
         text-decoration: none;
-        border-bottom: 2px solid lightblue;
+        border-bottom: 2px solid $blue;
         border-top: 2px solid white;
-        padding-bottom: 8px;
+        padding: 8px 0;
         -moz-transition: color .5s ease-in-out, border-bottom .5s linear, border-top .5s ease-in-out;
         &:hover {
-            color: $big-stone;
-            border-bottom: 2.5px solid $big-stone;
+            color: $blue;
+            border-bottom: 2.5px solid #fff;
             border-top: 2.5px solid $shuttle-grey;
         }
     }
