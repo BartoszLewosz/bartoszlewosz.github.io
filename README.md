@@ -1,10 +1,9 @@
 # Portfolio
 
-![Logo](https://github.com/BartoszLewosz/warren_folder/blob/master/homepage/static/homepage/img/blue_logo.svg)
 
 ## Usage
 
-[Nave a look! ](https://bartoszlewosz.github.io)
+[Have a look! ](https://bartoszlewosz.github.io)
 
 
 ## Description
