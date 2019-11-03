@@ -1,8 +1,6 @@
 # Portfolio
 
 
-## Usage
-
 [Have a look! ](https://bartoszlewosz.github.io)
 
 
