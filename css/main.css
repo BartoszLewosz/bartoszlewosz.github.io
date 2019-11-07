@@ -375,17 +375,39 @@ template {
       height: 4px;
       width: 80px;
       margin-bottom: 1.5rem; }
+      .skills__header--green .skills__header::before {
+        background: #06C847; }
+      .skills__header--blue .skills__header::before {
+        background: #0593FB; }
+      .skills__header--violet .skills__header::before {
+        background: #653CAD; }
   .skills__list {
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(178px, 1fr));
-    padding: 2rem; }
-    .skills__list--green {
-      list-style-image: url("https://bartoszlewosz.github.io/assets/img/bullet_green.svg"); }
-    .skills__list--blue {
-      list-style-image: url("https://bartoszlewosz.github.io/assets/img/bullet_blue.svg"); }
-    .skills__list--violet {
-      list-style-image: url("https://bartoszlewosz.github.io/assets/img/bullet_violet.svg"); }
+    padding: 0;
+    margin-top: calc(1.5rem + 4px);
+    -webkit-column-gap: 1.5rem;
+       -moz-column-gap: 1.5rem;
+            column-gap: 1.5rem;
+    list-style-type: none; }
+  .skills__item {
+    padding: 12px 0 12px 22px;
+    position: relative;
+    min-height: 2.5rem; }
+    .skills__item::before {
+      background: url("../assets/img/bullet_green.svg");
+      content: '';
+      display: block;
+      position: absolute;
+      top: 12px;
+      left: 0;
+      height: 18px;
+      width: 18px; }
+      .skills__list--violet .skills__item::before {
+        background: url("../assets/img/bullet_violet.svg"); }
+      .skills__list--blue .skills__item::before {
+        background: url("../assets/img/bullet_blue.svg"); }
   .skills__title {
     font-size: 2.5rem;
     margin: 0;
@@ -396,8 +418,8 @@ template {
     margin: .5rem 0 2rem;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr 1fr;
-    grid-template-columns: 2fr 1fr; }
+    -ms-grid-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr; }
     @media (max-width: 767px) {
       .skills__sections {
         -ms-grid-columns: 1fr;
