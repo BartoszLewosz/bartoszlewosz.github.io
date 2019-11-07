@@ -1,5 +1,5 @@
 # Portfolio
-
+![Bartosz Lewosz personal website.](src/assets/img/cover.png)
 
 [Have a look! ](https://bartoszlewosz.github.io)
 
@@ -12,10 +12,21 @@ This is my **Portfolio**. I made it during online course **WTF - WhatTheFrontend
 
 To create this website I used *gulp-starter-pack*:
 
-- HTML & CSS with scss 
-- JavaScript
-- GIT 
-- gulp
+~~~~
+npm install -g gulp-cli
+npm install
+gulp
+~~~~
+
+### Tools that I've used:
+
+- VSCode
+- SASS
+- Fetch API
+- CSS grid
+- Figma
+- git
+- terminal
 
 I followed the BEM standards and wrote my code as **clean** as possible.
 
