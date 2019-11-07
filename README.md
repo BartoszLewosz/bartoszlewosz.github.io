@@ -10,9 +10,9 @@ This is my **Portfolio**. I made it during online course **WTF - WhatTheFrontend
 
 ### What's behind?
 
-To create this website I used:
+To create this website I used *gulp-starter-pack*:
 
-- HTML & CSS 
+- HTML & CSS with scss 
 - JavaScript
 - GIT 
 - gulp
