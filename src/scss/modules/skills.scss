@@ -67,7 +67,7 @@
     &__sections {
         margin: .5rem 0 2rem;
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 2fr;
         @media (max-width: $mobile) {
             grid-template-columns: 1fr;
             margin: .5rem 0;
