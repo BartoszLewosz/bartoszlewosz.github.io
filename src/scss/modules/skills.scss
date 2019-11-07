@@ -17,20 +17,44 @@
             height: 4px;
             width: 80px;
             margin-bottom: 1.5rem;
+            .skills__header--green & {
+                background: $light-green;
+            }
+            .skills__header--blue & {
+                background: $blue;
+            }
+            .skills__header--violet & {
+                background: $violet;
+            }
         }
     }
     &__list {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(178px, 1fr));
-        padding: 2rem;
-        &--green {
-            list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_green.svg');
-        }
-        &--blue {
-            list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_blue.svg');
-        }
-        &--violet {
-            list-style-image: url('https://bartoszlewosz.github.io/assets/img/bullet_violet.svg');
+        padding: 0;
+        margin-top: calc(1.5rem + 4px);
+        column-gap: 1.5rem;
+        list-style-type: none;
+    }
+    &__item {
+        padding: 12px 0 12px 22px;
+        position: relative;
+        min-height: 2.5rem;
+        &::before {
+            background: url('../assets/img/bullet_green.svg');
+            content: '';
+            display: block;
+            position: absolute;
+            top: 12px;
+            left: 0;
+            height: 18px;
+            width: 18px;
+            .skills__list--violet & {
+                background: url('../assets/img/bullet_violet.svg')
+            }
+            .skills__list--blue & {
+                background: url('../assets/img/bullet_blue.svg')
+            }
         }
     }
     &__title {
