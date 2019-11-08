@@ -1,4 +1,14 @@
-console.log(`Hello world!`);
+const wave = String.fromCodePoint(0x1F44B);
+const style1 = [
+    'color: powderBlue',
+    'background: #171F3F',
+].join(';');
+
+console.log('%cWelcome! ' + wave + ' Thank you for coming here.\
+ I\'m keep practising my coding skills\
+and hopefully one day I\'ll move \
+my careeer forward and become web developer.\
+Enjoy my website!', style1);
 
 const url = "https://api.github.com/users/BartoszLewosz/repos?sort=updated&direction=desc";
 
