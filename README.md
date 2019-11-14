@@ -10,7 +10,7 @@ This is my **Portfolio**. I made it during online course **WTF - WhatTheFrontend
 
 ### What's behind?
 
-To create this website I used *gulp-starter-pack*:
+To create this website I used [gulp-starter-pack](https://github.com/maciejkorsan/wtf-gulp-starter#wtf-gulp-starter):
 
 ~~~~
 npm install -g gulp-cli
