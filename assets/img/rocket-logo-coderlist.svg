@@ -1,0 +1,32 @@
+<svg width="37" height="54" viewBox="0 0 37 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Frame 4" clip-path="url(#clip0)">
+<g id="Rocket no outline - small">
+<g id="Wings">
+<path id="Vector 2" d="M 0.0424197 0.850488C 0.261287 -0.562276 3.61341 0.211416 3.61341 0.211416C 7.29758 1.82733 8.12119 3.74246 7.37448 8.9587C 7.37448 8.9587 2.23109 16.4101 1.35562 16.4101C 0.480155 16.4101 -0.176448 2.26325 0.0424197 0.850488Z" transform="translate(5.7085 24.9548)" fill="#F9F9F9"/>
+<path id="Vector 2.1" d="M 0.0424197 0.850488C 0.261287 -0.562276 3.61341 0.211416 3.61341 0.211416C 7.29758 1.82733 8.12119 3.74246 7.37448 8.9587C 7.37448 8.9587 2.23109 16.4101 1.35562 16.4101C 0.480155 16.4101 -0.176448 2.26325 0.0424197 0.850488Z" transform="translate(30.6248 24.9548) scale(-1 1)" fill="#D9D9D9"/>
+</g>
+<g id="Main body">
+<path id="Vector" d="M 11.9023 33.0454L 5.44574 33.0454C -5.20163 18.5161 2.07895 5.95617 7.74382 0.75682C 8.04104 0.484025 8.33382 0.231492 8.61932 0C 8.92545 0.250835 9.2223 0.503147 9.51006 0.75682C 22.8008 12.4729 16.7225 27.0908 11.9023 33.0454Z" transform="translate(9.60718 4)" fill="#F9F9F9"/>
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M 0 33.0454L 3.2832 33.0454C 8.10327 27.0908 14.1816 12.4729 0.890869 0.756836C 0.603271 0.503174 0.306396 0.250732 0.000244141 0L 0 33.0454Z" transform="translate(18.2263 4)" fill="#D9D9D9"/>
+<circle id="Ellipse" cx="3.5" cy="3.5" r="3.5" transform="translate(15 14)" fill="#393B40"/>
+</g>
+<g id="Exhaust">
+<path id="Vector 4.1" d="M 6.67546 6.50499C 2.01243 7.23153 0.750692 8.77008 0 12.7685L 28.9999 12.7685C 28.4528 5.64111 21.7773 6.50499 21.7773 6.50499C 23.1599 -1.62147 6.32782 -2.69853 6.67546 6.50499Z" transform="translate(4 41.2314)" fill="#D77C72"/>
+</g>
+<path id="Subtract_2" fill-rule="evenodd" clip-rule="evenodd" d="M 0 12.7686L 14.7737 12.7686C 14.2266 5.64113 7.55103 6.5049 7.55103 6.5049C 8.26465 2.31007 4.125 -0.00633464 0 1.30114e-05L 0 12.7686Z" transform="translate(18.2263 41.2314)" fill="#B95F55"/>
+<g id="Connector">
+<rect id="Rectangle 2" width="3.06414" height="4.85961" transform="translate(16.9133 37.0454)" fill="#D77C72"/>
+</g>
+<g id="Connector_2">
+<rect id="Rectangle 2_2" width="1.75094" height="4.85961" transform="translate(18.2266 37.0454)" fill="#B95F55"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="37" height="54" fill="white"/>
+</clipPath>
+</defs>
+</svg>
