@@ -5,9 +5,8 @@ const style1 = [
 ].join(';');
 
 console.log('%cWelcome! ' + wave + ' Thank you for coming here.\
- I\'m keep practising my coding skills \
-and hopefully one day I\'ll move \
-my careeer forward and become web developer. \
+ I\'m keep practising my coding\ skills and hopefully one day I\'ll move \
+my career forward and become web developer. \
 Enjoy my website!', style1);
 
 const url = "https://api.github.com/users/BartoszLewosz/repos?sort=updated&direction=desc";
