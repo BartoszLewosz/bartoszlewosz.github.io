@@ -1,5 +1,5 @@
 # Portfolio
-![Bartosz Lewosz personal website.](src/assets/img/wh_post.png)
+![Bartosz Lewosz personal website.](src/assets/img/cover.png)
 
 [Have a look! ](https://bartoszlewosz.github.io)
 
